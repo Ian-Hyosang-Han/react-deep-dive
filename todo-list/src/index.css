@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+em,
+address {
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GangwonEdu_OTFBoldA";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-gangwon: "GangwonEdu_OTFBoldA", sans-serif;
+}
+
+:root {
+  --default-min-width: 800px;
+  --default-max-width: 1200px;
+  --main-color: #ffb02e;
+  --main-color-hover: #f19500;
+  --border-color: #e3e5e8;
+  --button-black: #2c2c2c;
+  --button-black-hover: #000000;
+  --font-default: "GangwonEdu_OTFBoldA";
+  --font-title-size: 28px;
+  --font-default-size: 20px;
+  --font-text-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("/bg-image.webp");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
