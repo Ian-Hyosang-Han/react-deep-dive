@@ -1,4 +1,4 @@
-## ✅ TodoList - A React Task Management App
+## TodoList - A React Task Management App
 This project was created as a way to **better understand React** and practice **React Hooks** in a real application.  
 It focuses on state management, component communication, and building reusable UI while experimenting with Tailwind CSS.
 
@@ -42,12 +42,5 @@ It allows users to create, manage, and track tasks with a clean interface — op
 - Practiced structuring React apps with reusable components (`Layout`, `Header`, `TodoForm`, `List`, `Todo`).  
 - Learned to replace plain CSS with **Tailwind utility classes** while still integrating CSS variables.  
 - Improved UI/UX by adding animations, responsive design, and a global background style.  
-
----
-
-## ✨ Personal Note
-This TodoList project represents my step-by-step growth in React and Tailwind CSS.  
-I focused not only on functionality but also on design details such as custom fonts, background patterns, and interactive animations.  
-For me, this project is a foundation for building larger and more complex applications.
 
 ---
